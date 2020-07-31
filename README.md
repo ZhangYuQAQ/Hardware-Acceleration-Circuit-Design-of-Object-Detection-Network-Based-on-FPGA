@@ -12,11 +12,11 @@
 - **Summernet has more 1*1 pointwise convolution calculation units than ismart2**
 - **The bounding box can be read and marked on the input picture**
 
-# organization
+# Organization
 - HLS_summernet: The summernet model is implemented by using HLS
 
 - Host_summernet: The bit and tcl file for FPGA configuration, and host code for FPGA control.
 
-# Reference
+# References
 - https://github.com/onioncc/iSmartDNN
 - https://github.com/ZhangYuQAQ/SkyNet
