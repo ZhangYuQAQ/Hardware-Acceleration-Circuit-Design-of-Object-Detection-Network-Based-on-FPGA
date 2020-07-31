@@ -9,6 +9,6 @@
 
 # Improvements
 &#8195;Summernent is improved on the basis of ismart2, with the following two main improvements：
-**- summernet has more 1*1 point-by-point convolution calculation units than ismart2
-- The bounding box can be read and marked on the input picture.**
+- **summernet has more 1*1 point-by-point convolution calculation units than ismart2**
+- **The bounding box can be read and marked on the input picture**
 
