@@ -13,9 +13,10 @@
 - **The bounding box can be read and marked on the input picture**
 
 # organization
-- HLS_summernet: The summernet model implemented using HLS.
+- HLS_summernet: The summernet model is implemented by using HLS
 
-- Host_summernet: The bit and tcl file for FPGA configuration.and host code run on CPU for FPGA control.
+- Host_summernet: The bit and tcl file for FPGA configuration, and host code for FPGA control.
 
 # Reference
 - https://github.com/onioncc/iSmartDNN
+- https://github.com/ZhangYuQAQ/SkyNet
