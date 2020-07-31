@@ -7,5 +7,8 @@
   
 &#8195;The hardware acceleration circuit designed on the PYNQ-Z2 development board can accomplish the target detection task well, and the output boundary box can accurately select the pedestrian or object in the picture.
 
-- The bounding box can be read and marked on the input picture.
+# Improvements
+&#8195;Summernent is improved on the basis of ismart2, with the following two main improvements：
+**- summernet has more 1*1 point-by-point convolution calculation units than ismart2
+- The bounding box can be read and marked on the input picture.**
 
