@@ -12,8 +12,26 @@ TIME_DIR = '/home/xilinx/jupyter_notebooks/summer_school/result/time'
 COORD_DIR = '/home/xilinx/jupyter_notebooks/summer_school/result/coordinate'
 XML_PATH = '/home/xilinx/jupyter_notebooks/summer_school/result/xml'
 
+def path_mkdir():
+    if not os.path.isdir(DAC_CONTEST):
+        os.mkdir(DAC_CONTEST)   
+    if not os.path.isdir(IMG_DIR):
+        os.mkdir(IMG_DIR)
+    if not os.path.isdir(OVERLAY_DIR):
+        os.mkdir(OVERLAY_DIR)
+    if not os.path.isdir(RESULT):
+        os.mkdir(RESULT)
+    if not os.path.isdir(TIME_DIR):
+        os.mkdir(TIME_DIR)
+    if not os.path.isdir(COORD_DIR):
+        os.mkdir(COORD_DIR)
+    if not os.path.isdir(XML_PATH):
+        os.mkdir(XML_PATH)
+
     
-# Get image name list
+
+    
+# Get image name list 
 def get_image_names():
     names_temp = [f for f in os.listdir(IMG_DIR) if f.endswith('.jpg')]
     names_temp.sort(key= lambda x:int(x[:-4]))
