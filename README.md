@@ -20,3 +20,11 @@
 # References
 - https://github.com/onioncc/iSmartDNN
 - https://github.com/ZhangYuQAQ/SkyNet
+
+# Quick Start
+
+Open a terminal on your PYNQ board and run:
+
+**sudo pip3 install --upgrade git+https://github.com/ZhangYuQAQ/Hardware-Acceleration-Circuit-Design-of-Object-Detection-Network-Based-on-FPGA.git**
+or ofline install:
+**sudo pip3 install --upgrade.**
